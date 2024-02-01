@@ -14,12 +14,13 @@ function addCaselle() {
   const randomBtn = document.createElement("button");
   randomBtn.innerText = "Generate";
   randomBtn.setAttribute("class", "randomButton");
+  randomBtn.setAttribute("id", "generateRandom");
   button.appendChild(randomBtn);
-
-  function (btn) {
-    
-  }
 }
 addCaselle();
-
-
+let numRandom;
+const button = document.getElementById("generateRandom");
+button.onclick = function () {
+  numRandom = Math.floor(Math.random() * 76);
+  console.log(numRandom);
+};
