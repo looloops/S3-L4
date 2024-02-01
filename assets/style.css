@@ -1,0 +1,31 @@
+.casella {
+    width: 57px;
+    display: inline-block;
+    background-color: rgba(103, 171, 24, 0.419);
+    height: 57px;
+    border-color: black;
+    border: 1px solid;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.casella span {
+    display: inline-block;
+    padding-block: 18px;
+}
+
+#tabellone {}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    margin-block-start: 40px;
+    margin-inline: 40px;
+}
+
+.randomButton {
+    height: 30px;
+}
